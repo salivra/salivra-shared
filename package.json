@@ -1,4 +1,20 @@
 {
-  "name": "salivra-shared",
-  "packageManager": "yarn@4.6.0"
+  "name": "@salivra/shared",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.6.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
